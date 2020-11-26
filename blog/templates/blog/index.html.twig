@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+<section class="articles">
+
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 10/02/2018 à 19h00 dans la catégorie Politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem velit suscipit, quas quasi pariatur!</p>
+            <p>Eos soluta id ipsa quasi praesentium, quo fuga totam aliquam iure perspiciatis qui, nemo nam?</p>
+            <a href="{{path('blog_show')}}" class="btn-primary">Lire la suite</a>
+        </div>
+    </article>
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 10/02/2018 à 19h00 dans la catégorie Politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="">
+            <p>Possimus sed architecto dolorem laudantium repudiandae ut ab quas dignissimos minus, eveniet dolores odit molestias!</p>
+            <p>Numquam, assumenda totam ab minima dignissimos, quis laborum ad placeat porro voluptate omnis corrupti impedit?</p>
+            <a href="{{path('blog_show')}}" class="btn-primary">Lire la suite</a>
+        </div>
+    </article>
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 10/02/2018 à 19h00 dans la catégorie Politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="">
+            <p>Maiores, omnis voluptas officiis harum totam dolorem amet quam magni in! Fugit dolores quae cum?</p>
+            <p>Velit tempora repellat sint a, dignissimos ab. Repudiandae reiciendis dolore corrupti atque eius laboriosam ducimus.</p>
+            <a href="{{path('blog_show')}}" class="btn-primary">Lire la suite</a>
+        </div>
+    </article>
+
+
+
+
+</section>
+
+{% endblock %}
