@@ -2,7 +2,7 @@
 
 Réalisation d'un blog avec Symfony.
 
-Page répértoriant la liste des articles.
+Page répértoriant les articles.
 
 Page pour créer un article.
 
